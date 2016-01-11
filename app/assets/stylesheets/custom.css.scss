@@ -1,2 +1,51 @@
-@import "bootstrap-prockets";
+$navbar-default-bg: #08088A;
+
+@import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+#logo{
+  color: white;
+  font-size: 1.7em;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#logo:hover{
+  color: #CCC;
+}
+
+.center{
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('mountains.jpeg');
+  background-size: cover;
+  height: 300px;
+}
+
+footer{
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 2px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover{
+  color: #222;
+}
+
+footer small{
+  float: left;
+}
+
+footer ul{
+  float: right;
+  list-style: none;
+}
+
+footer ul li{
+  float: left;
+  margin-left: 15px;
+}
